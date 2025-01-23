@@ -22,8 +22,11 @@ After constructing the circuit, I noticed areas where the setup could be improve
 ### Minor Improvement:
 <img width="821" alt="Screenshot 2025-01-22 at 5 56 46 PM" src="https://github.com/user-attachments/assets/40dbb160-5bac-4e87-bb61-bb85b821d3f5" />
 
+### MIDI File Handling
 
+Another issue occurred when uploading certain MIDI files. Errors were thrown without specific explanations. Additionally, the UI displayed MIDI files not located in the player directory but could not access them unless they were moved to the correct directory. To resolve this, I added a warning message guiding users to move the MIDI file to the proper directory.
 
+---
 
 ### Original code: 
 <img width="821" alt="Screenshot 2025-01-22 at 6 06 13 PM" src="https://github.com/user-attachments/assets/01630c21-69b2-409b-adc8-fe4647deb0d6" />
