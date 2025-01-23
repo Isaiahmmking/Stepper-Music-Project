@@ -8,4 +8,13 @@ Basic description: This is a project I built to help my understanding of javascr
 
 To my enjoyment, I found that this project has been completed by a few other people, specifically, I watch this video (https://www.youtube.com/watch?v=mFHpNFJlB0w) about someone implementing MIDI files through JS to connect the motors to specific pitches based on their rotational speed. I followed his original ideas and obtained the necessary parts to build the project. I had very little experience with an arduino so this project was very educational for me in that way. 
 
-After constructing the circuit, I noticed areas where the device could be improved. 
+After constructing the circuit, I noticed areas where the device could be improved. Specifically, when setting up the project I noticed there was little consideration for error in the code. Specifically, I felt that in SteppermotorMuisc.java there should've been error consideration. 
+Original code:
+<img width="811" alt="Screenshot 2025-01-22 at 5 54 05 PM" src="https://github.com/user-attachments/assets/c708f774-50cd-4158-a69f-2729ddc1487c" />
+
+Improvements:
+<img width="821" alt="Screenshot 2025-01-22 at 5 56 46 PM" src="https://github.com/user-attachments/assets/40dbb160-5bac-4e87-bb61-bb85b821d3f5" />
+
+
+
+
