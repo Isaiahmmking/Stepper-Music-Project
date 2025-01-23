@@ -15,7 +15,12 @@ After constructing the circuit, I noticed areas where the setup could be improve
 # Minor Improvement:
 <img width="821" alt="Screenshot 2025-01-22 at 5 56 46 PM" src="https://github.com/user-attachments/assets/40dbb160-5bac-4e87-bb61-bb85b821d3f5" />
 
+
+
+
 I also found that when I uploaded certain MIDI files, it would throw an error, but it was not specific to why the error occured. When looking though code, I found a small improvement I could make similar to the previous one. I noticed that the UI would be able to check for any MIDI files, even those not in the player directory, howeverm it could only play those if the *are* in the directory. That is, even if I have the MIDI downloaded say on my desktop, the UI would show the file but could not access it. To fix this, I added a warning error directing the user to move the MIDI to the proper diretory. 
+
+
 
 # Original code: 
 <img width="821" alt="Screenshot 2025-01-22 at 6 06 13 PM" src="https://github.com/user-attachments/assets/01630c21-69b2-409b-adc8-fe4647deb0d6" />
