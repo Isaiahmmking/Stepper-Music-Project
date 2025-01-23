@@ -18,7 +18,32 @@ After constructing the circuit, I noticed areas where the setup could be improve
 
 
 
-I also found that when I uploaded certain MIDI files, it would throw an error, but it was not specific to why the error occured. When looking though code, I found a small improvement I could make similar to the previous one. I noticed that the UI would be able to check for any MIDI files, even those not in the player directory, howeverm it could only play those if the *are* in the directory. That is, even if I have the MIDI downloaded say on my desktop, the UI would show the file but could not access it. To fix this, I added a warning error directing the user to move the MIDI to the proper diretory. 
+
+Here’s a cleaner and more professional format for your README file:
+
+Stepper-Music-Project
+TL;DR at the end
+
+Basic Description
+This is a project I built to enhance my understanding of JavaScript. It is a musical instrument made from stepper motors.
+
+Project Idea
+I first came up with the idea for this project during my freshman year of university. While building a personal project, I needed more materials from the parts store. There, I saw a display using a stepper motor. The display showcased the motor's strength by rotating a heavy weight, but what intrigued me more was the noise the motor made. Alongside being strong, the motor emitted a pitch similar to an electric piano. Instead of purchasing the parts I originally planned to buy, I bought a few stepper motors and decided to create a stepper motor piano!
+
+To my delight, I discovered that others had completed similar projects. Specifically, I watched this video, where someone used JavaScript to implement MIDI files, connecting motors to specific pitches based on their rotational speed. Inspired by their work, I gathered the necessary parts and started building. Although I had little experience with Arduino, this project became an excellent learning opportunity.
+
+Notable Improvements
+Error Handling in SteppermotorMusic.java
+While constructing the circuit, I identified areas for improvement in the setup, especially in error handling. One recurring issue was the UI's incorrect port listings for outputting MIDI files to the motors. To address this, I implemented a simple error check.
+
+Original Code:
+
+
+Minor Improvement:
+
+
+MIDI File Handling
+Another issue occurred when uploading certain MIDI files. Errors were thrown without specific explanations. Additionally, the UI displayed MIDI files not located in the player directory but could not access them unless they were moved to the correct directory. To resolve this, I added a warning message guiding users to move the MIDI file to the proper directory.
 
 
 
