@@ -16,10 +16,10 @@ To my enjoyment, I found that this project has been completed by a few other peo
 After constructing the circuit, I noticed areas where the setup could be improved. Specifically, when setting up the project I noticed there was little consideration for error in the code. Specifically, I felt that in SteppermotorMuisc.java there should've been error consideration. When setting up the project I frequently found that the UI diddn't have the correct ports listed to optput the MIDI files to the motors, so to check if the error was due to a wrongly selected port, I implemented a simple error check. 
 
 ---
-### Original code:
+#### Original code:
 <img width="811" alt="Screenshot 2025-01-22 at 5 54 05 PM" src="https://github.com/user-attachments/assets/c708f774-50cd-4158-a69f-2729ddc1487c" />
 
-### Minor Improvement:
+#### Minor Improvement:
 <img width="821" alt="Screenshot 2025-01-22 at 5 56 46 PM" src="https://github.com/user-attachments/assets/40dbb160-5bac-4e87-bb61-bb85b821d3f5" />
 
 ### MIDI File Handling
@@ -28,10 +28,10 @@ Another issue occurred when uploading certain MIDI files. Errors were thrown wit
 
 ---
 
-### Original code: 
+#### Original code: 
 <img width="821" alt="Screenshot 2025-01-22 at 6 06 13 PM" src="https://github.com/user-attachments/assets/01630c21-69b2-409b-adc8-fe4647deb0d6" />
 
-### Minor Improvement:
+#### Minor Improvement:
 <img width="903" alt="Screenshot 2025-01-22 at 6 08 46 PM" src="https://github.com/user-attachments/assets/e72f1e38-674f-42f2-b3aa-28078a09cdc7" />
 
 
