@@ -13,7 +13,7 @@ To my enjoyment, I found that this project has been completed by a few other peo
 # Basic improvements
 
 ###  Error handling 
-After constructing the circuit, I noticed areas where the setup could be improved. Specifically, when setting up the project I noticed there was little consideration for error in the code. Specifically, I felt that in SteppermotorMuisc.java there should've been error consideration. When setting up the project I frequently found that the UI diddn't have the correct ports listed to optput the MIDI files to the motors, so to check if the error was due to a wrongly selected port, I implemented a simple error check. 
+When setting up the project I noticed there were many areas that did not have proper error identification. When an error would occur, it would take me an trial and error to find the solutiot. I felt that in SteppermotorMuisc.java there should've been error consideration for incorrect port selection I frequently found that the program diddn't have the correct ports listed to optput the MIDI files to the motors, so to make it easier for a user, I implemented a simple error check for failed port connections.
 
 ---
 #### Original code:
@@ -24,7 +24,7 @@ After constructing the circuit, I noticed areas where the setup could be improve
 
 ### MIDI File Handling
 
-Another issue occurred when uploading certain MIDI files. Errors were thrown without specific explanations. Additionally, the UI displayed MIDI files not located in the player directory but could not access them unless they were moved to the correct directory. To resolve this, I added a warning message guiding users to move the MIDI file to the proper directory.
+Another issue occurred when uploading certain MIDI files. Errors were thrown without specific explanations. Additionally, the program displayed MIDI files not located in the player directory but could not access the files unless they were moved to the correct directory (resulting in an error) To resolve this, I added a warning message guiding users to move the MIDI file to the proper directory.
 
 ---
 
