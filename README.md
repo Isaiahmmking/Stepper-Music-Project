@@ -2,7 +2,9 @@
 *TL:DR at end*
 
 ## Basic description:
-This is a project I built to help my understanding of javascript. It is a musicial instrument made from stepper motors. 
+
+This is a an open-source project involving a musical instrument built using stepper motors that I have made improvements to. Specifically, I made improvements to the JavaScript codebase including optimizing control methods, enhancing user interface, improving code readability, and fixing minor errors. This has resulted in smoother performance, m user interaction, or easier maintenance]. This project deepened my understanding of JavaScript and hardware integration, while also demonstrating my ability to enhance existing systems through thoughtful problem-solving and coding expertise."
+I DID NOT
 
 ---
 # Project idea 
