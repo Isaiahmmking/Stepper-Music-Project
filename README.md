@@ -11,7 +11,7 @@ This is a project I built to help my understanding of javascript. It is a musici
 To my enjoyment, I found that this project has been completed by a few other people, specifically, I watch this video (https://www.youtube.com/watch?v=mFHpNFJlB0w) about someone implementing MIDI files through JS to connect the motors to specific pitches based on their rotational speed. I followed his original ideas and obtained the necessary parts to build the project. I had very little experience with an arduino so this project was very educational for me in that way. 
 
 # Basic improvements
----
+
 ###  Error handling 
 After constructing the circuit, I noticed areas where the setup could be improved. Specifically, when setting up the project I noticed there was little consideration for error in the code. Specifically, I felt that in SteppermotorMuisc.java there should've been error consideration. When setting up the project I frequently found that the UI diddn't have the correct ports listed to optput the MIDI files to the motors, so to check if the error was due to a wrongly selected port, I implemented a simple error check. 
 
