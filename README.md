@@ -31,12 +31,19 @@ Another issue occurred when uploading certain MIDI files. Errors were thrown wit
 #### Original code: 
 <img width="821" alt="Screenshot 2025-01-22 at 6 06 13 PM" src="https://github.com/user-attachments/assets/01630c21-69b2-409b-adc8-fe4647deb0d6" />
 
-#### Minor Improvement:
+#### My Changes:
 <img width="903" alt="Screenshot 2025-01-22 at 6 08 46 PM" src="https://github.com/user-attachments/assets/e72f1e38-674f-42f2-b3aa-28078a09cdc7" />
 
 
 
+# More important improvmenets
+### resource management
+The original code for this project originally used a try-catch-finally statement to deal with serial port management. However, I though the code could be improved using a try-with-reasources method instead, this way you could solve isses regarding improperly closed port without having to use a finally statement to close the port. This also made the code much easier to read and understand.
 
+#### Original code:
+<img width="903" alt="Screenshot 2025-01-29 at 8 36 17 PM" src="https://github.com/user-attachments/assets/988da51a-743c-4884-9814-2e57a6fcf1ac" />
 
+#### My Changes:
+<img width="903" alt="Screenshot 2025-01-29 at 8 38 28 PM" src="https://github.com/user-attachments/assets/7d1218ff-1a3b-48e1-b22e-fa6f86d51b9b" />
 
 
